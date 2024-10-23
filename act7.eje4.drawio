@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="Página-1" id="WMmwY0_pSZ3yfh87wqcF">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-1" value="profesor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-2" value="libro" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-3" value="fecha_Prestamo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-4" value="Colegio" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-5" value="asignatura" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="165" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-6" value="aula" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-8" value="curso" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-9" value="editorial" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ppX42K2OdDYSZE-TFFBG-1" target="ppX42K2OdDYSZE-TFFBG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ppX42K2OdDYSZE-TFFBG-1" target="ppX42K2OdDYSZE-TFFBG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="190" as="sourcePoint" />
+            <mxPoint x="320" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ppX42K2OdDYSZE-TFFBG-1" target="ppX42K2OdDYSZE-TFFBG-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ppX42K2OdDYSZE-TFFBG-1" target="ppX42K2OdDYSZE-TFFBG-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="340" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.992;exitY=0.367;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="ppX42K2OdDYSZE-TFFBG-2" target="ppX42K2OdDYSZE-TFFBG-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="220" as="sourcePoint" />
+            <mxPoint x="350" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-18" value="1FN:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="78" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-19" value="2FN:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="468" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-20" value="profesor(&lt;u&gt;profesor&lt;/u&gt;, colegio, curso, aula)&lt;div&gt;Libro(&lt;u&gt;libro&lt;/u&gt;, editorial)&lt;/div&gt;&lt;div&gt;Prestamo(&lt;font color=&quot;#ff0000&quot;&gt;&lt;u&gt;profesor, libro&lt;/u&gt;&lt;/font&gt;, &lt;u&gt;fecha_prestamo)&lt;/u&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //lo rojo significa FK&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="513" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppX42K2OdDYSZE-TFFBG-21" value="PRESTAMOS-LIBROS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
