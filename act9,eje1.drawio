@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="Página-1" id="DNf8KhPIsyBoa3wnYHWW">
-    <mxGraphModel dx="454" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -304,8 +304,8 @@
         <mxCell id="5_Tohe4F2pMLkTHTM8Fo-86" value="cod_profesion&lt;div&gt;denominacion&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="970" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5_Tohe4F2pMLkTHTM8Fo-88" value="CUOTAS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SOCIOS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SEDES&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ENVIOS(cod_envio, destino, fecha, tipo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ENVIOS-HUMANITARIOS(cod_envio,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ENVIOS-MATERIALES(cod_envio&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1000" width="230" height="170" as="geometry" />
+        <mxCell id="5_Tohe4F2pMLkTHTM8Fo-90" value="&lt;p&gt;&lt;strong&gt;MODELO RELACIONAL&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;CUOTAS&lt;/strong&gt; (&lt;code&gt;cod_cuota&lt;/code&gt; (pk), importe)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;SOCIOS&lt;/strong&gt; (&lt;code&gt;cod_socio&lt;/code&gt; (pk), dni, nombre, ccc, tel)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;VOLUNTARIOS&lt;/strong&gt; (&lt;code&gt;cod_voluntario&lt;/code&gt; (pk), dni, nombre, dir, localidad, ciudad, cod_tipo, cod_sede)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ENVIOS&lt;/strong&gt; (&lt;code&gt;cod_envio&lt;/code&gt; (pk), destino, fecha)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ENVIOS-HUMANITARIO&lt;/strong&gt; (&lt;code&gt;cod_envio&lt;/code&gt; (pk, fk))&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ENVIOS-MATERIAL&lt;/strong&gt; (&lt;code&gt;cod_envio&lt;/code&gt; (pk, fk), nombre, tipo, tonelada, unidades)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;S-H&lt;/strong&gt; (&lt;code&gt;cod_voluntario_sanitario&lt;/code&gt; (pk, fk), &lt;code&gt;cod_envio_humanitario&lt;/code&gt; (pk, fk))&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ADMINISTRATIVOS&lt;/strong&gt; (&lt;code&gt;cod_voluntario&lt;/code&gt; (pk, fk))&lt;/p&gt;&lt;p&gt;&lt;strong&gt;SANITARIOS&lt;/strong&gt; (&lt;code&gt;cod_voluntario&lt;/code&gt; (pk, fk), disponible)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;PROFESIONES&lt;/strong&gt; (&lt;code&gt;cod_profesion&lt;/code&gt; (pk), denominacion)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;SEDES&lt;/strong&gt; (&lt;code&gt;cod_sede&lt;/code&gt; (pk), ciudad, domicilio, nombre_director)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;CUOTAS-SOCIO&lt;/strong&gt; (&lt;code&gt;cod_cuota&lt;/code&gt; (pk, fk), &lt;code&gt;cod_socio&lt;/code&gt; (pk, fk), fecha_pago, importe)&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1070" width="570" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
